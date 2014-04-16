@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+/Users/Mika/Kwizzeo/.metadata/.plugins/org.eclipse.jdt.core
-4210720335.index
-1270315800.index
-421455872.index
-637261229.index
