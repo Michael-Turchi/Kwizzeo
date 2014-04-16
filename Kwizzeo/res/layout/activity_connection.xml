@@ -1,8 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textViewKwizzeo"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:fontFamily="Verdana"
+        android:gravity="center"
+        android:text="Kwizzeo"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" >
+    </View>
+
+    <TableRow android:layout_width="fill_parent" >
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="Rejoignez Kwizzeo dès maintenant!"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="fill_parent" >
+        </View>
+    </TableRow>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/facebookconnect" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" >
+    </View>
+
+    <TableRow>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <TextView
+            android:id="@+id/textViewPubli"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="Nous ne publierons jamais rien sans \n votre autorisation préalable"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" >
+        </View>
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" >
+    </View>
+
+    <TableRow>
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <TextView
+            android:id="@+id/textViewNoCompte"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="Vous ne possédez pas de compte?"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="fill_parent" >
+        </View>
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CREER un compte" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="fill_parent" >
+        </View>
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" >
+    </View>
+
+    <TableRow>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <TextView
+            android:id="@+id/textViewDejaCompte"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="Déjà un compte Kwizzeo?"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="fill_parent" >
+        </View>
+    </TableRow>
+
+</TableLayout>
