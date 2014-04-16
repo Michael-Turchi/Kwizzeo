@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/Mika/Documents/Workspace/.metadata/.plugins/org.eclipse.jdt.core
+421455872.index
+1270315800.index
+2198948649.index
