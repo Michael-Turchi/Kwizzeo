@@ -23,6 +23,7 @@ public class MainActivity extends ActionBarActivity {
 
 	private TextView titreKwizzeo = null;
 	private String hello;
+	private String test;
 	
 	// La chaîne de caractères par défaut
 	  private final String defaut = "Vous devez cliquer sur le bouton « Calculer l'IMC » pour obtenir un résultat.";
