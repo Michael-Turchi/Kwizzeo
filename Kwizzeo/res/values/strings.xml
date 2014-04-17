@@ -4,5 +4,6 @@
     <string name="app_name">Kwizzeo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="conditions"><u>Conditions Génréales d\'utilisation</u></string>
 
 </resources>

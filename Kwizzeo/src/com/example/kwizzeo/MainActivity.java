@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
         
         setContentView(titreKwizzeo);*/
         
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_connection);
         
         
         
